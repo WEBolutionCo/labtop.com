@@ -225,7 +225,9 @@ h4{
 }
 
 .promlap {
-  font-family: 'protest-revolution-regular', sans-serif;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #17a2dd;
 }
 
