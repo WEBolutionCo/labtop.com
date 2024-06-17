@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Labtop / Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  </head>
+  <body>
+    <div class="header">
+     <div class="headC">
+      <div class="navbar">
+       <div class="logoC">
+    <img src="images1/logo.jpg" class="logo" width="200px">
+       </div>
+      <nav class="links">
+      <ul id="MenuItems">
+       <li><a href="home.html">Home</a></li>
+       <li><a href="product.html">Products</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><a href="account.html">Account</a></li>
+      </ul>
+      </nav>
+        <a href="cart.html"><img src="images1/Shopping-bag.jpg" class="bag"></a>
+        <img src="images1/menu-icon.jpg" class="menu-icon" onclick="togglemenu()">
+      </div>
+      <div class="row">
+    <div class="col-1">
+      <h1>Level up your Gaming  
+<br>with BEASTS</h1>
+      <br>
+      <p class="info-cont">Want a head up in your gaming
+ or just daily work? Well we have got you
+ covered. Get a wide variety of laptops
+ here to get boosted on any work!</p>
+      <a href="product.html" style="font-size: 14px;">Explore now &#8594;</a>
+    </div>
+    <div class="col-2">
+      <img src="images1/Home-laptop.jpg" class="home-img">
+    </div>    
+      </div>
+    </div>
+      <!--- featured brands --->
+    <div class="brands">
+      <h1 class="heading-1">Categories</h1>
+      <div class="small-container">
+        <div class="row">
+        <div class="col-3">
+          <a href="#">
+          <img src="images1/category-msi.jpg" class="catpic">
+          </a>
+          <h3 class="cateh">Gamimg</h3>
+        </div>
+        <div class="col-3">
+          <a href="#">
+          <img src="images1/category-alienware.jpg" class="catpic">
+          </a>
+          <h3 class="cateh">Power-work</h3>
+        </div>
+        <div class="col-3">
+          <a href="#">
+          <img src="images1/category-hp.jpg" class="catpic">
+          </a>
+          <h3 class="cateh">Daily-work</h3>
+        </div>
+        </div>
+      </div>
+    </div>
+      
+      <!-- featured products -->
+    <div class="small-container">
+      <h1 class="heading-2">Laptops</h1>
+      <div class="row">
+        <!-- msi -->
+          <div class="col-4">
+          <img src="images1/msi-gt77hx-titan.jpg">
+          <h4 class="price">MSI Titan GT77HX</h4>
+          <h4 class="price"><b>6,299.99$ </b><sup><s>6,999.99$</s></sup></h4>
+          <a href="product-details/msi-gt77.html" class="buy" onclick="addToCart('MSI Titan GT77HX', 6299.99)">Buy now</a>
+        </div>
+        <div class="col-4">
+          <img src="images1/msi-gs66-stealth.jpg">
+          <h4>MSI Stealth GS66</h4>
+          <h4><strong>2,499.99$</strong></h4>
+          <a href="product-details/msi-gs66.html" class="buy">Buy now</a>
+        </div>
+        <div class="col-4">
+          <img src="images1/msi-ge76-raider.jpg">
+          <h4>MSI Raider GE76</h4>
+          <h4><strong>5,999.99$</strong></h4>
+          <a href="product-details/msi-ge76.html" class="buy">Buy now</a>
+        </div>
+        <div class="col-4">
+          <img src="images1/msi-gp66-leopard.jpg">
+          <h4>MSI Leopard GP66</h4>
+          <h4><strong>2,199.99$</strong></h4>
+          <a href="product-details/msi-gp66.html" class="buy">Buy now</a>
+        </div>
+      </div>
+        <!-- alienware -->
+      <div class="row">
+        <div class="col-4">
+          <img src="images1/alienware-area51m.jpg">
+          <h4>Alienware Area 51M</h4>
+          <h4><strong>4,499.99$</strong></h4>
+          <a href="product-details/alienware-area51m.html" class="buy">Buy now</a>
+        </div>
+        <div class="col-4">
+          <img src="images1/alienware-x15-r2.jpg">
+          <h4>Alienware X15 R2</h4>
+          <h4><strong>2,099.99$</strong></h4>
+          <a href="product-details/alienware-x15-r2.html" class="buy">Buy now</a>
+        </div>
+        <div class="col-4">
+          <img src="images1/alienware-x17-r2.jpg">
+          <h4>Alienware X17 R2</h4>
+          <h4><strong>2,499.99$</strong></h4>
+          <a href="product-details/alienware-x17-r2.html" class="buy">Buy now</a>
+        </div>
+        <div class="col-4">
+          <img src="images1/alienware-m15-r6.jpg">
+          <h4>Alienware M15 R6</h4>
+          <h4><strong>1,499.99$</strong></h4>
+          <a href="product-details/alienware-m15-r6.html" class="buy">Buy now</a>
+        </div>
+      </div>
+        <!-- hp -->
+      <div class="row">
+        <div class="col-4">
+          <img src="images1/hp-spectre-x360.jpg">
+          <h4>HP Spectre x360</h4>
+          <h4><strong>1,099.99$</strong></h4>
+          <small href="product-details/hp-spectre-x360.html" class="workin">*Still Working</small>
+        </div>
+        <div class="col-4">
+          <img src="images1/hp-pavilion-x360.jpg">
+          <h4>HP Pavilion x360</h4>
+          <h4><strong>549.99$</strong></h4>
+          <small href="product-details/hp-pavilion-x360.html" class="workin">*Still Working</small>
+        </div>
+        <div class="col-4">
+          <img src="images1/hp-envy-x360.jpg">
+          <h4>HP ENVY x360</h4>
+          <h4><strong>799.99$</strong></h4>
+          <small href="product-details/hp-envy-x360.html" class="workin">*Still Working</small>
+        </div>
+        <div class="col-4">
+          <img src="images1/hp-pavilion-15.jpg">
+          <h4>HP Pavilion 15</h4>
+          <h4><strong>499.99$</strong></h4>
+          <small href="product-details/hp-pavilion-15.html"class="workin">*Still Working</small>
+        </div>
+      </div>   
+    </div>
+      <!-- promotional section -->
+    <div class="promotion">
+      <div class="small-comtainer">
+      <div class="rowr">
+        <div class="col-2">
+          <div class="promImgHold">
+          <img src="images1/promotion4.png" class="prom-img">
+          </div>
+        </div>
+        <div class="col-2S">
+          <div class="promotionhold">
+            <small>Exclusive offer from Labtop®</small>
+            <h1 class="promla">MSI Titan GT77HX</h1>
+            <div class="promHold">
+              <small>Exclusive offer! MSI GT77HX
+with a ground breaking RTX 4090 and an i9
+-13980HX processor is on 10% discount. the 
+offer will be over within 7 days. Grab one now!
+              </small>
+            </div>
+          <br>
+          <a href="product-details/msi-gt77.html" class="offer-btn">Buy now →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="small-container testimonial">
+      <div class="rowr">
+        <div class="col-3">
+          <div class="testi"> 
+            <div class="test-cont">
+              <img src="images1/quote.png" class="quote" width="25px">
+              <br>
+              <img src="images1/fatin-prof.jpg" class="profile-pic-fatin" width="70px">
+              <h3>Fatin Bin Asad</h3>
+              <p class="star">★★★★★</p>
+            </div>
+            <p class="review">"This website has been a very good
+user experience for me. Its not like other
+website that has laggy user interface and every
+thing is undoable. Giving a five star"</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="testi">
+            <div class="test-cont">
+              <img src="images1/quote.png" class="quote" width="25px">
+              <br>
+              <img src="images1/jobayer-prof.jpg" class="profile-pic" width="70px">
+              <h3>Jobayer Bhuiyan</h3>
+              <p class="star">★★★★☆</p>
+            </div>
+            <p class="review">"Really good website. I think it 
+deserves a 5 star, but as it has just started,
+I think it has to wait a little. When it goes for
+a while, I said it and you deserve it. And so you will get it."</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="testi">
+            <div class="test-cont">
+              <img src="images1/quote.png" class="quote" width="25px">
+              <br>
+              <img src="images1/radh-prof.jpg" class="profile-pic" width="70px">
+              <h3>Radh Ahmed</h3>
+              <p class="star">★★★★☆</p>
+            </div>
+            <p class="review">"I liked this website            a lot.
+But there are some things that need to be
+fixed about this. Specially the shopping cart.
+If that gets fixed and polished, its getting a 5 star"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="small-container selling">
+        <h1 class="heading-3">Top Selling Brand(s)</h1>
+      <div class="row">
+          <div class="col-3">
+            <img src="images1/msi-logo.jpg" class="logob">
+          </div>
+          <div class="col-3">
+            <img src="images1/alienware-logo.jpg" class="logob">
+          </div>
+          <div class="col-3">
+            <img src="images1/hp-logo.jpg" class="logob">
+          </div>
+      </div>
+    </div>
+    <div class="small-container">
+      <div class="disclaimerC">
+        <p class="disclaimer">Disclaimer: None of the images used in this website
+          are taken by me. Pictures that are used for decorations
+          are generated by Bing Designer™ powered by DALL-E 3. And
+          the images used for product display are owned by their 
+          respective owner. I own nothing.
+        </p>
+      </div>
+    </div>
+    <div class="ending">
+      <div class="footC">
+        <div class="erow">
+          <div class="footer-1">
+            <div class="footer-flex">
+            <h3 class="download">Download our mobile app</h3>
+            <small>Download our mobile app on Android or IOS devices</small>
+            <br>
+            <a href="https://play.google.com" class="store-link">
+            <img src="images1/playstore.jpg" width="80px">
+            </a>
+            <a href="https://www.apple.com/app-store/" class="store-link">
+            <img src="images1/appstore.jpg" width="80px">
+            </a>
+            </div>
+          </div>
+          <div class="footer-2">
+            <div class="footer-flex">
+            <img src="images1/Logo-trans.png">
+            <br>
+            <p class="goal"> Labtop dreams to extinct the technological
+<br> limitations of the gaming talents of our country.</p>
+            </div>
+          </div>
+          <div class="footer-3">
+            <div class="footer-flex">
+            <h3>Useful links</h3>
+            <ul>
+              <li><a href="" class="flinks">Warranty policy</a></li>
+              <li><a href="" class="flinks">Return policy</a></li>
+              <li><a href="contact.html" class="flinks">Contact us</a></li>
+              <li><a href="about.html" class="flinks">About us</a></li>
+            </ul>
+            </div>
+          </div>
+          <div class="footer-4">
+            <div class="footer-flex">
+            <h3>Follow us on</h3>
+            <ul>
+              <li><a href="" class="flinks">Facebook</a></li>
+              <li><a href="" class="flinks">Instragram</a></li>
+              <li><a href="" class="flinks">Twitter</a></li>
+              <li><a href="" class="flinks">Youtube</a></li>
+            </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="copyright info-cont">Copyright 2024 © Labtop.Co - All Rights Reserved</p>
+    </div>
+  </div>
+    <!------------ toggle menu fuction ------------>
+    <script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+        function togglemenu() {
+          if (MenuItems.style.maxHeight == "0px") 
+          {
+            MenuItems.style.maxHeight = "200px"
+            console.log("Menu is here!");
+          }
+          else 
+          {
+            MenuItems.style.maxHeight = "0px"
+            console.log("Menu is gone!");
+          }
+        };
+    </script>
+  </body>
+</html>
