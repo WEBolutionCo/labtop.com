@@ -1,0 +1,210 @@
+<!--checkout.html-->
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Labtop / About</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="headerc">
+      <h1 class="heading-7">Checkout page</h1>
+      <h3 class="heading-8">User information</h3>
+      <form class="user-form">
+        <div class="lbl-grp">
+          <label for="name">Username:</label>
+          <input name="name" id="name" type="text" class="userin" placeholder="Username">
+        </div>
+        <div class="lbl-grp">
+          <label for="name">Email:<span class="req">*</span></label>
+          <input name="name" id="email" type="email" class="userin" placeholder="Username" required>
+        </div>
+        <div class="lbl-grp">
+          <label for="name">Password:<span class="req">*</span></label>
+          <input name="name" id="pass" type="password" class="userin" placeholder="Username" required>
+        </div>
+      </form>
+      <div class="payment">
+        <div class="small-container">
+          <h3 class="heading-9">International Payment Methods</h3>
+            
+          <div class="row">
+            <div class="col-5">
+              <img src="../images1/paypal1.jpg" class="pay-pic">
+              <h3>PayPal</h3>
+              <p class="paydes">Use PayPal 
+to instatntly
+pay your blills in no time. Having low
+costs, PayPal gives you to pay in various
+different currency depending on your
+personal choice.              
+              </p>
+              <input type="checkbox">
+              <small class="pay">*Pay with this method</small>
+            </div>
+            <div class="col-5">
+              <img src="../images1/master1.jpg" class="pay-pic">
+              <h3>MasterCard</h3>
+              <p class="paydes">MasterCard
+                empowers transactions globally. With 
+                widespread acceptance and security, it 
+                ensures payments in lots of currencies, 
+                enhancing financial flexibility.              
+              </p>
+              <input type="checkbox">
+              <small class="pay">*Pay with this method</small>
+            </div>
+          </div>
+          
+          <h3 class="heading-9">National Payment Methods</h3>
+            
+          <div class="row">
+            <div class="col-5">
+              <img src="../images1/bkash.jpg" class="pay-pic">
+              <h3>Bkash</h3>
+              <p class="paydes">Bkash 
+is a widespread paying method in Bangladesh. While
+charging low for their services, they are a
+dedicated payment service that gets most
+of your job done.            
+                
+              </p>
+              <input type="checkbox">
+              <small class="pay">*Pay with this method</small>
+            </div>
+            <div class="col-5">
+              <img src="../images1/nagad1.jpg" class="pay-pic">
+              <h3>Nagad</h3>
+              <p class="paydes">Nagad 
+is the most budget friendly payment
+method that might feel a little jacky.
+But if you overcome that, this method 
+gives you the most bang for your buck.                
+              </p>
+              <input type="checkbox">
+              <small class="pay">*Pay with this method</small>
+            </div>
+          </div>
+          
+        </div>
+        <hr>
+        <h3 class="heading-10">or,</h3>
+        <hr>
+        <form class="user-form">
+          <h3 class="heading-8">Billing/Delivery Location (Cash on delivery)</h3>
+          <div class="lbl-grp">
+          <label for="name">District:<span class="req">*</span></label>
+          <input name="name" id="dis" type="text" class="userin" placeholder="Username" required>
+        </div>
+        <div class="lbl-grp">
+          <label for="name">Union:</label>
+          <input name="name" id="uni" type="text" class="userin" placeholder="Username">
+        </div>
+        <div class="lbl-grp">
+          <label for="name">City:<span class="req">*</span></label>
+          <input name="name" id="cit" type="text" class="userin" placeholder="Username" required>
+        </div>
+        <div class="lbl-grp">
+          <label for="name">Street:<span class="req">*</span></label>
+          <input name="name" id="str" type="text" class="userin" placeholder="Username" required>
+        </div>
+        <div class="lbl-grp">
+          <label for="name">Location:<span class="req">*</span></label>
+          <textarea name="name" id="loc" type="text" class="userin" placeholder="Username" rows="3" required></textarea>
+        </div>
+        </form>
+      </div>
+      <div class="caution">
+        <p class="cautionw">
+          CAUTION: Read this before you proceed
+        </p>
+        <p class="cautions">
+          &malt; You vow that the information you provided
+          above is true. we reccomend that you double
+          check these information. Labtop would not
+          be responsible for faulty information
+        </p>
+        <p class="cautions">
+          &malt; On the location input, please provide the
+          exact location where you want the package
+          to arrive. if the information is wrong,
+          this could be troublesome.
+        </p>
+        <p class="cautions">
+          &malt; If you left the payment method blank, then
+          we will assume that you have chosen to have 
+          cash on delivery. so choose accordingly.
+        </p>
+        <p class="cautions">
+          &malt; By buying from Labtop.Co™, we will assume that you
+          have agreed to all of our terms of conditions,
+          terms of use and privacy policy.
+        </p>
+        <div class="btn-flex">
+          
+          <a href="thanks.html" value="submit">Submit form →</a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!------------ toggle menu fuction ------------>
+    <script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+        function togglemenu() {
+          if (MenuItems.style.maxHeight == "0px") 
+          {
+            MenuItems.style.maxHeight = "200px"
+          }
+          else 
+          {
+            MenuItems.style.maxHeight = "0px"
+          }
+        };
+    </script>
+    <script>
+        function updatePlaceholder() {
+            const input1 = document.getElementById('name');
+            const input2 = document.getElementById('email');
+            const input3 = document.getElementById('pass');
+            const input4 = document.getElementById('dis');
+            const input5 = document.getElementById('uni');
+            const input6 = document.getElementById('cit');
+            const input7 = document.getElementById('str');
+            const input8 = document.getElementById('loc');
+            if (window.innerWidth <= 600) {
+                input1.placeholder = "Username";
+                input2.placeholder = "Email*";
+                input3.placeholder = "Password*";
+                input4.placeholder = "District*";
+                input5.placeholder = "Union";
+                input6.placeholder = "City*";
+                input7.placeholder = "Street Info*";
+                input8.placeholder = "Location*";
+            } else {
+                input1.placeholder = " ";
+                input2.placeholder = " ";
+                input3.placeholder = " ";
+                input4.placeholder = " ";
+                input5.placeholder = " ";
+                input6.placeholder = " ";
+                input7.placeholder = " ";
+                input8.placeholder = " ";
+            }
+        }
+
+        // Initial check
+        updatePlaceholder();
+
+        // Update on resize
+        window.addEventListener('resize', updatePlaceholder);
+    </script>
+  </body>
+</html>
