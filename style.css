@@ -1007,8 +1007,6 @@ select:focus {
 }
 
 .headerc {
-  max-width: 1080px;
-  margin: auto;
   background: radial-gradient(#555, #000, #000);
 }
 
